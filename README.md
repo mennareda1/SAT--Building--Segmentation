@@ -31,3 +31,7 @@ Project Pipeline
 9.Inference
 Input satellite image
 Output segmentation mask highlighting buildings
+
+## Dataset
+The dataset used in this project was provided by the Egyptian Space Agency (EGSA)
+from MisrSat-2 satellite imagery and is not publicly available.
