@@ -1,0 +1,20 @@
+train: C:\chatbotApp\final\segment\dataset\train\images
+val: C:\chatbotApp\final\segment\dataset\val\images
+
+nc: 1
+names: ['building']
+augment:
+  #hsv_h: 0.4    # Hue variation
+  #hsv_s: 0.7     # Saturation variation
+  hsv_v: 0.3     # Brightness variation
+  degrees: 100   # Rotation up to ±90°
+  translate: 0.1 # Shift images
+  scale: 0.2  # Zoom in/out
+  shear: 20
+  perspective: 0.0
+  flipud: 0.7    # Vertical flip (good for satellites)
+  fliplr: 0.7 # Horizontal flip
+  mosaic: 1.0    # Combine 4 images into 1 (good for small objects)
+  mixup: 0.5 # Blend 2 images
+  cutmix: 0.5
+
